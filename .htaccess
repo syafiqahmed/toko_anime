@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteRule ^home$ media.php?page=home [L]
+RewriteRule ^profil.html$ media.php?page=profil [L]
+RewriteRule ^cara_pembelian.html$ media.php?page=cara_beli [L]
+RewriteRule ^produk.html$ media.php?page=produk [L]
+
+Options All -Indexes
